@@ -1,0 +1,38 @@
+<body>
+<div class="container">
+  <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+    <h1 class="h2">Notes List</h1>
+  </div>
+  
+  <div class="table-responsive" *ngFor="let note of Notes; let i = index">
+    
+    <form (ngSubmit)="onSubmit(i)">
+      <h3 class="h3"> {{note.name}} </h3>
+
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th scope="col">Nft description</th>
+            <th scope="col">Metadata</th>      
+          </tr>
+        </thead>
+    
+        <tbody>
+          <tr> 
+            <td>{{note.description}}</td>  
+            <td>{{note.token_URI}}</td>        
+          </tr>
+        </tbody>
+      </table>
+  
+      <div>
+        <img src={{note.image}} alt={{note.name}} width="420" height="430">
+      </div>
+    
+      <div>
+        <button id={{i}} class="btn btn-primary btn-block" type="submit">GET</button>
+      </div>
+    </form>
+  </div>
+</div>
+</body>
