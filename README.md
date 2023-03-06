@@ -1,4 +1,4 @@
-# Proyecto de la asignatura Nuevos Servicios Telemáticos del GETT de la Universidad de Vigo
+# Proyecto de la asignatura Nuevos Servicios Telemáticos (4º curso, rama telemática) del GETT de la Universidad de Vigo
 
 Creación de una aplicación distribuída usando Angular y NodeJS para frontend y backend, respectivamente.
 
