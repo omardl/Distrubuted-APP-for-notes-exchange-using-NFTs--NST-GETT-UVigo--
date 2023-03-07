@@ -13,5 +13,7 @@ Se ha creado a su vez un smart contract mediante Solidity para poder realizar la
 
 # Autores
 Anxo Bravo Alonso
+
 Omar Delgado López
+
 Samuel López Iglesias
