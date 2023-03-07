@@ -11,6 +11,7 @@ Para las pruebas de funcionamiento no se ha usado propiamente la blockchain prin
 
 Se ha creado a su vez un smart contract mediante Solidity para poder realizar las transacciones necesarias.
 
+
 # Autores
 Anxo Bravo Alonso
 
